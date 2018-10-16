@@ -1,3 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     color: #f00;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.project-image {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+    h1 {
+        color: #0f0;
+    }
+}
+
+.image {
+  display: inline-block;
+  border: 2px solid #2e3d49;
+  width: 200px;
+  height: 100px;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #2e3d49;
+    min-width: 250px;
+    max-width: 700px;
+}
+
+.label{
+    width: 80px;
+    height: 50px;
+    float:right;
+}
+
+span {
+  display: inline-block; /* para que eu possa configurar uma largura */
+  width: 10em; /* com uma largura limitada, o texto é forçado a quebrar a linha */
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    display: inline-block;
+    border: 2px solid #2e3d49;
+    margin: 0px;
+    width: 200px;
+    min-height: 100px;
 }
