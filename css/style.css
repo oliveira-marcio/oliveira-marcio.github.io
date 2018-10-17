@@ -4,9 +4,8 @@
 
 body {
     margin: 0;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    background-color: #7d97ad
+    padding: 0 1.5em;
+    background-color: #7d97ad;
 }
 
 header {
@@ -16,7 +15,7 @@ header {
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 img {
@@ -24,7 +23,8 @@ img {
     max-width: 100%;
 }
 
-h1, h4 {
+h1,
+h4 {
     color: #2d3c49;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: lighter;
@@ -37,8 +37,7 @@ h2 {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: lighter;
     text-align: left;
-    margin-top: 1.5em;
-    margin-bottom: 0.25em;
+    margin: 1.5em 0 0.25em;
 }
 
 figure {
@@ -52,29 +51,13 @@ figure {
 }
 
 figcaption {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.5em;
+    font: 1.5em Helvetica, Arial, sans-serif;
     color: #2d3c49;
     text-align: center;
     padding-top: 0.75em;
 }
 
-.main-container {
-    background-color: white;
-    width: 100%;
-    margin: auto;
-    padding-top: 0;
-    padding-bottom: 1.5em;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
-    min-width: 340px;
-    max-width: 1000px;
-}
-
-.shadowed {
-    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
-}
-
+/* Header */
 .circular-image {
     border-radius: 50%;
     width: 70px;
@@ -82,13 +65,35 @@ figcaption {
 }
 
 .left {
-    float:left;
+    float: left;
     margin-bottom: 1.5em;
 }
 
 .right {
     float: right;
     margin-bottom: 1.5em;
+}
+
+.divider {
+    clear: both;
+    width: 100%;
+    height: 2px;
+    border: 1px solid #7d97ad;
+    margin-bottom: 1.5em;
+}
+
+/* Content */
+.main-container {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    padding: 0 0.75em 1.5em;
+    min-width: 340px;
+    max-width: 1000px;
+}
+
+.shadowed {
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.75);
 }
 
 .projects-title {
@@ -101,17 +106,8 @@ figcaption {
     flex-wrap: wrap;
 }
 
-.divider {
-    clear: both;
-    width: 100%;
-    height: 2px;
-    border: 1px solid #7d97ad;
-    margin-bottom: 1.5em;
-}
-
 .label {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
+    font: bold 1em Helvetica, Arial, sans-serif;
     padding: 0.5em;
     background-color: #2d3c49;
     color: white;
@@ -119,6 +115,7 @@ figcaption {
     right: 0.75em;
 }
 
+/* Breakpoints */
 @media screen and (max-width: 540px) {
     .left {
         float: none;
@@ -131,15 +128,15 @@ figcaption {
         margin-bottom: 1.5em;
     }
 
-    h1, h4{
+    h1,
+    h4{
         text-align: center;
     }
 }
 
 @media screen and (max-width: 600px) {
     body{
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
     }
 
     figure {
