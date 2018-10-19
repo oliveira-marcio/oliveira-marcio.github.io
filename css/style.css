@@ -116,7 +116,29 @@ figcaption {
 }
 
 /* Breakpoints */
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
+    body{
+        padding: 0;
+    }
+
+    h1,
+    h4 {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    figure {
+        max-width: 200px;
+        margin: 0;
+    }
+
+    figcaption {
+        font: 1em Helvetica, Arial, sans-serif;
+    }
+
     .left {
         float: none;
         display: inline-block;
@@ -128,21 +150,16 @@ figcaption {
         margin-bottom: 1.5em;
     }
 
-    h1,
-    h4{
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    body{
-        padding: 0;
+    .label {
+        font: bold 0.75em Helvetica, Arial, sans-serif;
+        padding: 0.5em;
+        right: 1em;
     }
 
-    figure {
-        width: 100%;
-        max-width: 400px;
-        margin: auto;
+    .projects-container {
+        display: flex;
+        overflow: auto;
+        flex-wrap: nowrap;
     }
 }
 
