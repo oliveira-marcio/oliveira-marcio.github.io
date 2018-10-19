@@ -1,48 +1,3 @@
-const projects = [
-  {
-      name: "Histórias Infantis",
-      category: "Android",
-      image: "project_historias_infantis.jpg",
-      url: "https://github.com/oliveira-marcio/HistoriasInfantis",
-      featured: 1
-  },
-  {
-      name: "FlashCards",
-      category: "React Native",
-      image: "project_react_native.jpg",
-      url: "https://github.com/oliveira-marcio/react-native-flashcards",
-      featured: 2
-  },
-  {
-      name: "Leitura",
-      category: "React",
-      image: "project_react_leitura.jpg",
-      url: "https://github.com/oliveira-marcio/react-leitura",
-      featured: 3
-  },
-  {
-      name: "My Reads",
-      category: "React",
-      image: "project_react_myreads.jpg",
-      url: "https://github.com/oliveira-marcio/react-my-reads",
-      featured: 4
-  },
-  {
-      name: "Enron Fraud",
-      category: "Machine Learning",
-      image: "project_machine_learning.jpg",
-      url: "https://github.com/oliveira-marcio/ml-enron-fraud",
-      featured: 5
-  },
-  {
-      name: "We Hate Dogs",
-      category: "Data Science",
-      image: "project_ds_wrangling.jpg",
-      url: "https://github.com/oliveira-marcio/we-hate-dogs-wrangling",
-      featured: 6
-  },
-];
-
 /*
  * Função de ordenação para ordenar array de objetos por determinada key
  * inspirada no pacote "sort-by" (https://www.npmjs.com/package/sort-by)
@@ -91,7 +46,9 @@ const buildProjectsSection = (section) => {
         if(section === "Featured Work") {
             html += `<div class="label">${project.category}</div>`;
         }
-        html += `<img class="shadowed" src="img/${project.image}" alt="${project.name}">`;
+        html += `<img class="shadowed" src="img/`;
+        html += project.hasOwnProperty("image") ? project.image : "_no_image.jpg";
+        html +=  `" alt="${project.name}">`;
         html += `</a><figcaption>${project.name}</figcaption></figure>`;
     });
     html += `</section>`;
