@@ -49,7 +49,7 @@ const buildProjectsSection = (section) => {
             html += `<div class="label">${project.category}</div>`;
         }
         html += `<img class="shadowed" src="img/`;
-        html += project.hasOwnProperty("image") ? project.image : "_no_image.jpg";
+        html += project.hasOwnProperty("image") ? project.image : "no_image.jpg";
         html +=  `" alt="${project.name}">`;
         html += `</a><figcaption>${project.name}</figcaption></figure>`;
     });
