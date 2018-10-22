@@ -30,7 +30,9 @@ const sort_by = (inputKey) => (a, b) => {
 };
 
 const buildProjectsSection = (section) => {
+    const GITHUB_BASE = "https://github.com/oliveira-marcio/";
     let filteredProjects;
+
     if(section === "Featured Work"){
         filteredProjects = projects.filter(p => p.hasOwnProperty("featured"));
         filteredProjects.sort(sort_by('featured'));
@@ -42,7 +44,7 @@ const buildProjectsSection = (section) => {
     let html = `<section class="projects-title"><h2>${section}:</h2></section>`;
     html += `<section class="projects-container">`;
     filteredProjects.map(project => {
-        html += `<figure><a href="${project.url}" target="_blank">`;
+        html += `<figure><a href="${GITHUB_BASE + project.url}" target="_blank">`;
         if(section === "Featured Work") {
             html += `<div class="label">${project.category}</div>`;
         }
@@ -57,7 +59,7 @@ const buildProjectsSection = (section) => {
 }
 
 const renderProjects = () => {
-    const sections = ["Featured Work", "Android", "React Native", "React", "Machine Learning", "Data Science"];
+    const sections = ["Featured Work", "Android", "React", "Full Stack", "Data Science", "Machine Learning"];
     let html = "";
     sections.map(section => html += buildProjectsSection(section));
     document.getElementById("projects").innerHTML = html;

@@ -4,7 +4,7 @@
  * atributos obrigatórios:
  * - name: Será exibido como título e alt da imagem
  * - category: Colocará o projeto na seção informada
- * - url: Link para o projeto
+ * - url: Link para o projeto (apenas a pasta)
  *
  * atributos opcionais:
  * - image: será exibida imagem padrão _no_image.jpg
@@ -16,42 +16,74 @@ const projects = [
       name: "Histórias Infantis",
       category: "Android",
       image: "project_historias_infantis.jpg",
-      url: "https://github.com/oliveira-marcio/HistoriasInfantis",
+      url: "HistoriasInfantis",
       featured: 1
   },
   {
-      name: "FlashCards",
-      category: "React Native",
+      name: "FlashCards (React Native)",
+      category: "React",
       image: "project_react_native.jpg",
-      url: "https://github.com/oliveira-marcio/react-native-flashcards",
+      url: "react-native-flashcards",
       featured: 2
   },
   {
-      name: "Leitura",
+      name: "Leitura (Redux)",
       category: "React",
       image: "project_react_leitura.jpg",
-      url: "https://github.com/oliveira-marcio/react-leitura",
+      url: "react-leitura",
       featured: 3
   },
   {
       name: "My Reads",
       category: "React",
       image: "project_react_myreads.jpg",
-      url: "https://github.com/oliveira-marcio/react-my-reads",
+      url: "react-my-reads",
       featured: 4
   },
   {
       name: "Enron Fraud",
       category: "Machine Learning",
       image: "project_machine_learning.jpg",
-      url: "https://github.com/oliveira-marcio/ml-enron-fraud",
+      url: "ml-enron-fraud",
       featured: 5
   },
   {
-      name: "We Hate Dogs",
+      name: "We Hate Dogs (Data Wrangling)",
       category: "Data Science",
       image: "project_ds_wrangling.jpg",
-      url: "https://github.com/oliveira-marcio/we-hate-dogs-wrangling",
+      url: "we-hate-dogs-wrangling",
       featured: 6
+  },
+  {
+      name: "Music Store (SQL Analysis)",
+      category: "Data Science",
+      url: "sql-music-store"
+  },
+  {
+      name: "E-commerce Strategy (A/B Test)",
+      category: "Data Science",
+      url: "ab-test-statistics"
+  },
+  {
+      name: "Simplified Popular Movies Stage 2 (with AAC)",
+      category: "Android",
+      url: "popular-movies-AAC"
+  },
+  {
+      name: "Movie Trailers Website",
+      category: "Full Stack",
+      image: "project_fs_movie_website.jpg",
+      url: "fsnd-movie-trailers-site"
+  },
+  {
+      name: "My Portfolio Website",
+      category: "Full Stack",
+      image: "project_fs_portfolio.jpg",
+      url: "oliveira-marcio.github.io"
+  },
+  {
+      name: "Log Analysis (SQL + Python)",
+      category: "Full Stack",
+      url: "fsnd-log-analysis"
   },
 ];
