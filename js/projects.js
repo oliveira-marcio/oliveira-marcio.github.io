@@ -7,7 +7,7 @@
  * - url: Link para o projeto (apenas a pasta)
  *
  * atributos opcionais:
- * - image: será exibida imagem padrão _no_image.jpg
+ * - image: (usar imagens 800 x 600) será exibida imagem padrão 'no_image.jpg'
  * - featured: caso fornecido, o projeto será exibido em "Featured Work" ordenado
  * pelo valor definido.
  */
@@ -34,10 +34,10 @@ const projects = [
       featured: 3
   },
   {
-      name: "My Reads",
-      category: "React",
-      image: "project_react_myreads.jpg",
-      url: "react-my-reads",
+      name: "Item Catalog",
+      category: "Full Stack",
+      image: "project_fs_item_catalog.jpg",
+      url: "fsnd-item-catalog",
       featured: 4
   },
   {
@@ -68,6 +68,12 @@ const projects = [
       name: "Simplified Popular Movies Stage 2 (with AAC)",
       category: "Android",
       url: "popular-movies-AAC"
+  },
+  {
+      name: "My Reads",
+      category: "React",
+      image: "project_react_myreads.jpg",
+      url: "react-my-reads",
   },
   {
       name: "Movie Trailers Website",
