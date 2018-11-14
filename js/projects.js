@@ -92,4 +92,10 @@ const projects = [
       category: "Full Stack",
       url: "fsnd-log-analysis"
   },
+  {
+      name: "Cat Clicker",
+      category: "Full Stack",
+      image: "project_cat_clicker.jpg",
+      url: "cat-clicker"
+  },
 ];
