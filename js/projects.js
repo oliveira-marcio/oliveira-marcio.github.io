@@ -98,4 +98,10 @@ const projects = [
       image: "project_cat_clicker.jpg",
       url: "cat-clicker"
   },
+  {
+      name: "Neighborhood Map",
+      category: "React",
+      image: "project_react_neighborhood_map.jpg",
+      url: "neighborhood-map"
+  },
 ];
