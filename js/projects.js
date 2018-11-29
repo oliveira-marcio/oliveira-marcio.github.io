@@ -104,4 +104,9 @@ const projects = [
       image: "project_react_neighborhood_map.jpg",
       url: "neighborhood-map"
   },
+  {
+      name: "Configuração do Servidor Linux",
+      category: "Full Stack",
+      url: "fsnd-config-linux-server"
+  },
 ];
