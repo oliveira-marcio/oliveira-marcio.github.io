@@ -109,4 +109,54 @@ const projects = [
       category: "Full Stack",
       url: "fsnd-config-linux-server"
   },
+  {
+      name: "Business Card",
+      category: "Android",
+      url: "abnd-business-card"
+  },
+  {
+      name: "Score Keeper",
+      category: "Android",
+      url: "abnd-score-keeper"
+  },
+  {
+      name: "Quiz App",
+      category: "Android",
+      url: "abnd-quiz-app"
+  },
+  {
+      name: "Musical Structure",
+      category: "Android",
+      url: "abnd-musical-structure"
+  },
+  {
+      name: "Report Card",
+      category: "Android",
+      url: "abnd-report-card"
+  },
+  {
+      name: "Tour Guide",
+      category: "Android",
+      url: "abnd-tour-guide"
+  },
+  {
+      name: "Book Listing",
+      category: "Android",
+      url: "abnd-book-listing"
+  },
+  {
+      name: "Habit Tracker",
+      category: "Android",
+      url: "abnd-habit-tracker"
+  },
+  {
+      name: "News App",
+      category: "Android",
+      url: "abnd-news-app"
+  },
+  {
+      name: "Inventory App",
+      category: "Android",
+      url: "abnd-inventory-app"
+  },
 ];
