@@ -194,4 +194,19 @@ const projects = [
       category: "Android",
       url: "adnd-capstone-stage1"
   },
+  {
+      name: "Análise de dados da Bay Area Bike Share",
+      category: "Data Science",
+      url: "analysis-bay-area-bike-share"
+  },
+  {
+      name: "Análise de dados do Metrô de NY",
+      category: "Data Science",
+      url: "analysis-MTA-Subway"
+  },
+  {
+      name: "Análise de dados de Baseball (Tableau)",
+      category: "Data Science",
+      url: "tableau-baseball-analysis"
+  },
 ];
