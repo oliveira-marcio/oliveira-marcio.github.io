@@ -159,4 +159,39 @@ const projects = [
       category: "Android",
       url: "abnd-inventory-app"
   },
+  {
+      name: "Popular Movies - Stage 1",
+      category: "Android",
+      url: "adnd-popular-movies-stage1"
+  },
+  {
+      name: "Popular Movies - Stage 2",
+      category: "Android",
+      url: "adnd-popular-movies-stage2"
+  },
+  {
+      name: "Stock Hawk",
+      category: "Android",
+      url: "adnd-stock-hawk"
+  },
+  {
+      name: "Baking App",
+      category: "Android",
+      url: "adnd-baking-app"
+  },
+  {
+      name: "Build It Bigger",
+      category: "Android",
+      url: "adnd-build-it-bigger"
+  },
+  {
+      name: "Make Your App Material",
+      category: "Android",
+      url: "adnd-make-material"
+  },
+  {
+      name: "Capstone - Stage 1",
+      category: "Android",
+      url: "adnd-capstone-stage1"
+  },
 ];
