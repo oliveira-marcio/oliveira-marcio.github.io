@@ -209,4 +209,41 @@ const projects = [
       category: "Data Science",
       url: "tableau-baseball-analysis"
   },
+    {
+      name: "(Training) RxJava / RxAndroid",
+      category: "Android",
+      url: "RxAndroid-Practice"
+  },  {
+      name: "(Challenge) Customer Invitation",
+      category: "Full Stack",
+      url: "challenge-customer-invitation"
+  },  {
+      name: "(Challenge) Pokémon",
+      category: "Full Stack",
+      url: "challenge-pokemon"
+  },  {
+      name: "(Training) Unit Test & TDD",
+      category: "Android",
+      url: "unit-testing-practice"
+  },  {
+      name: "(Challenge) Device Registration",
+      category: "Android",
+      url: "jj-android-challenge"
+  },  {
+      name: "(Challenge) Login Page",
+      category: "Full Stack",
+      url: "frontend-challenge"
+  },  {
+      name: "(Challenge) Data syncronization & UI manipulation",
+      category: "Android",
+      url: "smart-android-challenge"
+  },  {
+      name: "(Challenge) QR Code Reading",
+      category: "Android",
+      url: "chipdd-challenge"
+  },  {
+      name: "(Training) Jetpack, MVVM & Dagger",
+      category: "Android",
+      url: "aac-mvvm-dagger-retrofit-practice"
+  },
 ];
