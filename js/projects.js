@@ -238,10 +238,6 @@ const projects = [
       category: "Android",
       url: "smart-android-challenge"
   },  {
-      name: "(Challenge) QR Code Reading",
-      category: "Android",
-      url: "chipdd-challenge"
-  },  {
       name: "(Training) Jetpack, MVVM & Dagger",
       category: "Android",
       url: "aac-mvvm-dagger-retrofit-practice"
